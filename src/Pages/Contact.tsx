@@ -58,7 +58,7 @@ export default function contact() {
       message,
     };
 
-    const res = await axios.post("http://localhost:8000/contact", data);
+    const res = await axios.post(`${url}/contact`, data);
     console.log(res);
   };
 
