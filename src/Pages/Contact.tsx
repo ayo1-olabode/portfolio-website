@@ -57,8 +57,13 @@ export default function contact() {
       message: message,
     };
     try {
-      const response = await axios.post(`${url}/contact`, data);
-      console.log(response.data);
+      fetch(`${url}/contact`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
     } catch (error) {
       console.error(error);
     }
