@@ -52,14 +52,16 @@ export default function contact() {
 
   const postData = async () => {
     const data = {
-      name,
-      email,
-      message,
+      name: name,
+      email: email,
+      message: message,
     };
-    console.log(`${url}/contact`);
-    const res = await axios.post(`${url}/contact`, data);
-
-    console.log(res);
+    try {
+      const response = await axios.post(`${url}/contact`, data);
+      console.log(response.data);
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   const handleSubmit = (e: any) => {
