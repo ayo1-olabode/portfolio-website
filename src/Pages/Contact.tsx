@@ -56,8 +56,9 @@ export default function contact() {
       email,
       message,
     };
-
+    console.log(`${url}/contact`);
     const res = await axios.post(`${url}/contact`, data);
+
     console.log(res);
   };
 
