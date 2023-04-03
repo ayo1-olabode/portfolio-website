@@ -1,0 +1,79 @@
+.hero-name {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.span-name {
+  color: #00adb5;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.hero-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.hero-socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.hero-socials__item {
+  margin: 0 0.5rem;
+}
+
+.hero-line {
+  width: 100%;
+  height: 1px;
+  background-color: #00adb5;
+  margin: 1rem 0;
+}
+
+.hero-text {
+  font-size: large;
+}
+
+span {
+  color: #00adb5;
+}
+
+span {
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-line {
+  width: 50%;
+}
+
+.discord {
+  cursor: pointer;
+  display: inline;
+  transition: color 0.7s ease-in-out;
+}
+
+.discord::before {
+  content: attr(data-original);
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.discord:hover::before {
+  opacity: 1;
+}
