@@ -37,7 +37,6 @@ export default function contact() {
   const [message, setMessage] = useState("");
 
   const url = import.meta.env.VITE_API_URL;
-  console.log(url);
 
   const handleName = (e: any) => {
     setName(e.target.value);
