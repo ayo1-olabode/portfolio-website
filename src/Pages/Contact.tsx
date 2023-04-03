@@ -70,7 +70,6 @@ export default function contact() {
     };
     console.log(data);
     postData();
-
     setName("");
     setEmail("");
     setMessage("");
