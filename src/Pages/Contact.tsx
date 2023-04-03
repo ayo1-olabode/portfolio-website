@@ -76,7 +76,7 @@ export default function contact() {
       email,
       message,
     };
-    console.log(data);
+
     postData();
     setName("");
     setEmail("");
