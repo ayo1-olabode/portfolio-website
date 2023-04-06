@@ -66,7 +66,7 @@ function ProjectCard(props: any) {
                 variant="solid"
                 bg="gray"
               >
-                Pusblished Soon
+                Published Soon
               </Button>
             )}
           </CardFooter>
