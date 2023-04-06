@@ -51,6 +51,7 @@ function Hero() {
             Hey there! I'm Ayo, a 3rd-year Software Engineering student at the{" "}
             {""}
             <span
+              className="pointer"
               onClick={() =>
                 opentab(
                   "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/software-engineering"
@@ -65,7 +66,10 @@ function Hero() {
             <br />
             <br />
             Apart from my professional experience, I am an active member of{" "}
-            <span onClick={() => opentab("https://www.codethechangeyyc.ca/")}>
+            <span
+              className="pointer"
+              onClick={() => opentab("https://www.codethechangeyyc.ca/")}
+            >
               {" "}
               Code The Change
             </span>
@@ -86,12 +90,12 @@ function Hero() {
             passionate about developing innovative software solutions. If you'd
             like to connect or have any questions, don't hesitate to reach out
             via{" "}
-            <span onClick={handleEmail} className="email">
+            <span onClick={handleEmail} className="email pointer">
               email
             </span>{" "}
             or{" "}
             <span
-              className="discord"
+              className="discord pointer"
               onMouseEnter={() => setText(discordTag)}
               onMouseLeave={() => setText(originalText)}
             >

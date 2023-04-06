@@ -86,3 +86,7 @@ span {
     width: 100%;
   }
 }
+
+.pointer {
+  cursor: pointer;
+}
