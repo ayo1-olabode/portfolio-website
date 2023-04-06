@@ -84,12 +84,8 @@ function Hero() {
             pushing the boundaries of what's possible in software engineering.
             <br />
             <br />
-            In my free time, I love fitness, which helps me maintain a healthy
-            balance between work and personal life. Staying active allows me to
-            clear my mind and boosts my creativity, making me even more
-            passionate about developing innovative software solutions. If you'd
-            like to connect or have any questions, don't hesitate to reach out
-            via{" "}
+            If you'd like to connect or have any questions, don't hesitate to
+            reach out via{" "}
             <span onClick={handleEmail} className="email pointer">
               email
             </span>{" "}
