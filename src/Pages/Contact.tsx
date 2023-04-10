@@ -61,6 +61,7 @@ export default function contact() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
         },
         credentials: "include",
         body: JSON.stringify(data),
