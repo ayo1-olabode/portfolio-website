@@ -62,6 +62,7 @@ export default function contact() {
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
         body: JSON.stringify(data),
       });
     } catch (error) {
